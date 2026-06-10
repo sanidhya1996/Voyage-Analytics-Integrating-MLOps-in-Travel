@@ -1,0 +1,67 @@
+2026-05-27 14:25:01,341 - INFO - Loading model...
+2026-05-27 14:25:05,319 - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\sanid\AppData\Local\ngrok\ngrok.exe
+2026-05-27 14:25:06,158 - INFO - Opening tunnel named: http-5000-2f5780a1-c298-46ba-bca1-2d9da56a44de
+2026-05-27 14:25:06,239 - INFO - t=2026-05-27T14:25:06+0530 lvl=info msg="no configuration paths supplied"
+2026-05-27 14:25:06,240 - INFO - t=2026-05-27T14:25:06+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\sanid\\AppData\\Local\\ngrok\\ngrok.yml
+2026-05-27 14:25:06,241 - INFO - t=2026-05-27T14:25:06+0530 lvl=info msg="open config file" path=C:\\Users\\sanid\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2026-05-27 14:25:06,242 - INFO - t=2026-05-27T14:25:06+0530 lvl=info msg="FIPS 140 mode" enabled=false
+2026-05-27 14:25:06,326 - INFO - t=2026-05-27T14:25:06+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2026-05-27 14:25:07,247 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg="client session established" obj=tunnels.session
+2026-05-27 14:25:07,248 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+2026-05-27 14:25:07,298 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg=start pg=/api/tunnels id=0360afbdd0867c09
+2026-05-27 14:25:07,306 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg=end pg=/api/tunnels id=0360afbdd0867c09 status=200 dur=0s
+2026-05-27 14:25:07,309 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg=start pg=/api/tunnels id=e92f152fb3ae2a6f
+2026-05-27 14:25:07,310 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg=end pg=/api/tunnels id=e92f152fb3ae2a6f status=200 dur=999.3µs
+2026-05-27 14:25:07,310 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg=start pg=/api/tunnels id=8d29c3fb76f55e85
+2026-05-27 14:25:07,311 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg=end pg=/api/tunnels id=8d29c3fb76f55e85 status=200 dur=0s
+2026-05-27 14:25:07,312 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg=start pg=/api/tunnels id=d30f7254d44fb3bb
+2026-05-27 14:25:07,509 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg="update available" obj=updater
+2026-05-27 14:25:07,837 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg="started tunnel" obj=tunnels name=http-5000-2f5780a1-c298-46ba-bca1-2d9da56a44de addr=http://localhost:5000 url=https://reputably-dreary-stoppage.ngrok-free.dev
+2026-05-27 14:25:07,839 - INFO - t=2026-05-27T14:25:07+0530 lvl=info msg=end pg=/api/tunnels id=d30f7254d44fb3bb status=201 dur=535.0082ms
+2026-05-27 14:25:07,880 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.30:5000
+2026-05-27 14:25:07,881 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-27 14:25:19,310 - INFO - 127.0.0.1 - - [27/May/2026 14:25:19] "GET / HTTP/1.1" 200 -
+2026-05-27 14:25:36,015 - INFO - 192.168.29.30 - - [27/May/2026 14:25:36] "GET / HTTP/1.1" 200 -
+2026-05-27 14:25:43,200 - INFO - 192.168.29.30 - - [27/May/2026 14:25:43] "GET / HTTP/1.1" 200 -
+2026-05-27 14:27:35,341 - INFO - 127.0.0.1 - - [27/May/2026 14:27:35] "GET / HTTP/1.1" 200 -
+2026-05-27 14:27:36,135 - INFO - 127.0.0.1 - - [27/May/2026 14:27:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-27 14:27:43,244 - INFO - 127.0.0.1 - - [27/May/2026 14:27:43] "GET / HTTP/1.1" 200 -
+2026-05-27 14:28:25,894 - INFO - 127.0.0.1 - - [27/May/2026 14:28:25] "GET / HTTP/1.1" 200 -
+2026-05-27 14:37:28,166 - INFO - t=2026-05-27T14:37:28+0530 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2026-05-27 14:37:28,177 - INFO - t=2026-05-27T14:37:28+0530 lvl=info msg="session closing" obj=tunnels.session err=nil
+2026-05-27 14:37:28,281 - INFO - t=2026-05-27T14:37:28+0530 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=1a92a8c10bb5 err="reconnecting session closed"
+2026-05-27 14:37:52,998 - INFO - Loading model...
+2026-05-27 14:37:55,640 - INFO - Updating authtoken for default "config_path" of "ngrok_path": C:\Users\sanid\AppData\Local\ngrok\ngrok.exe
+2026-05-27 14:37:55,849 - INFO -  Ngrok authentication token configured
+2026-05-27 14:37:55,851 - INFO - Opening tunnel named: http-5000-26ccb152-f270-4583-9b8e-183c2ce0db40
+2026-05-27 14:37:55,897 - INFO - t=2026-05-27T14:37:55+0530 lvl=info msg="no configuration paths supplied"
+2026-05-27 14:37:55,898 - INFO - t=2026-05-27T14:37:55+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\sanid\\AppData\\Local\\ngrok\\ngrok.yml
+2026-05-27 14:37:55,899 - INFO - t=2026-05-27T14:37:55+0530 lvl=info msg="open config file" path=C:\\Users\\sanid\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+2026-05-27 14:37:55,900 - INFO - t=2026-05-27T14:37:55+0530 lvl=info msg="FIPS 140 mode" enabled=false
+2026-05-27 14:37:55,947 - INFO - t=2026-05-27T14:37:55+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+2026-05-27 14:37:57,561 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg="client session established" obj=tunnels.session
+2026-05-27 14:37:57,561 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+2026-05-27 14:37:57,600 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg=start pg=/api/tunnels id=74030f7874f0b8db
+2026-05-27 14:37:57,600 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg=end pg=/api/tunnels id=74030f7874f0b8db status=200 dur=755.9µs
+2026-05-27 14:37:57,601 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg=start pg=/api/tunnels id=ad73d9833230c74c
+2026-05-27 14:37:57,602 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg=end pg=/api/tunnels id=ad73d9833230c74c status=200 dur=164.8µs
+2026-05-27 14:37:57,604 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg=start pg=/api/tunnels id=e03be9472bdca56e
+2026-05-27 14:37:57,607 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg=end pg=/api/tunnels id=e03be9472bdca56e status=200 dur=0s
+2026-05-27 14:37:57,608 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg=start pg=/api/tunnels id=79fcfb6893d557b0
+2026-05-27 14:37:57,764 - INFO - t=2026-05-27T14:37:57+0530 lvl=info msg="update available" obj=updater
+2026-05-27 14:37:58,800 - INFO - t=2026-05-27T14:37:58+0530 lvl=info msg="started tunnel" obj=tunnels name=http-5000-26ccb152-f270-4583-9b8e-183c2ce0db40 addr=http://localhost:5000 url=https://reputably-dreary-stoppage.ngrok-free.dev
+2026-05-27 14:37:58,801 - INFO -  Ngrok tunnel established!
+2026-05-27 14:37:58,801 - INFO - t=2026-05-27T14:37:58+0530 lvl=info msg=end pg=/api/tunnels id=79fcfb6893d557b0 status=201 dur=1.1920839s
+2026-05-27 14:37:58,831 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.30:5000
+2026-05-27 14:37:58,832 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-27 14:38:16,474 - INFO - 192.168.29.30 - - [27/May/2026 14:38:16] "GET / HTTP/1.1" 200 -
+2026-05-27 14:38:36,812 - INFO - 127.0.0.1 - - [27/May/2026 14:38:36] "GET / HTTP/1.1" 200 -
+2026-05-27 14:55:29,432 - INFO - t=2026-05-27T14:55:29+0530 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+2026-05-27 14:55:29,434 - INFO - t=2026-05-27T14:55:29+0530 lvl=info msg="session closing" obj=tunnels.session err=nil
+2026-05-27 14:55:29,434 - INFO - t=2026-05-27T14:55:29+0530 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=0f9c9fb2aefc err="reconnecting session closed"

@@ -1,0 +1,12 @@
+# Ignore local Python environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Ignore Airflow docker environment files and logs
+airflow-docker/
+airflow/
+utils/
+logs/
+plugins/

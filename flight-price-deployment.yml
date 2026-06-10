@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flight-prediction
+  labels:
+    app: flight-prediction
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: flight-prediction
+  template:
+    metadata:
+      labels:
+        app: flight-prediction
+    spec:
+      containers:
+        - name: flight-prediction
+          image: sanidhya1996/flight_price_prediction_app:latest
+          ports:
+            - containerPort: 8000
+          env:
+            - name: FLASK_ENV
+              value: "production"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: flight-prediction-service
+  labels:
+    app: flight-prediction
+spec:
+  selector:
+    app: flight-prediction
+  ports:
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: LoadBalancer

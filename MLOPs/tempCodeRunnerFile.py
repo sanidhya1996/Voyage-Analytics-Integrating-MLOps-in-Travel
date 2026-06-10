@@ -1,0 +1,1 @@
+E:\DS\projects\MLOPS\MLOPs\best_flight_price_model.joblib
