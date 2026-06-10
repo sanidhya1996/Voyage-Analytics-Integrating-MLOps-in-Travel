@@ -1,0 +1,19 @@
+version: '3.8'
+services:
+  sleek-airflow:
+    image: airflow-docker:latest
+
+    volumes:
+      - ./airflow:/opt/airflow
+      - ../best_flight_price_model.joblib:/opt/airflow/dags/best_flight_price_model.joblib
+
+
+
+    ports:
+      - "8080:8080"
+
+    environment:
+      - PYTHONpath=/opt/airflow/dags
+      - PIP_ADDITIONAL_REQUIREMENTS=pandas scikit-learn numpy joblib
+
+    command: airflow standalone

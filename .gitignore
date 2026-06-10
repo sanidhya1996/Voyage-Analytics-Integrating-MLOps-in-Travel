@@ -6,6 +6,10 @@ __pycache__/
 
 # Ignore Airflow docker environment files and logs
 airflow-docker/
+!airflow-docker/
+!airflow-docker/airflow/
+!airflow-docker/airflow/dags/
+!airflow-docker/airflow/dags/**
 airflow/
 utils/
 logs/
