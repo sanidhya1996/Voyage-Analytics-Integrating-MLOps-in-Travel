@@ -9,3 +9,5 @@ threadpoolctl
 tzdata
 Werkzeug
 flask
+sentence-transformers
+streamlit
